@@ -16,6 +16,23 @@ In the terminal:
 5. Prepare for the next commit
     a. Type in the terminal, 'git add .'
         i. the '.' means everything inside the current project folder
+        ii. the 'warning' is okay, as it is only showing that Git is changing the line ending to match Windows formatting
+6. Saving the files in Git
+    a. Type in the terminal, 'git commit -m "First commit with project files"'
+        i. "First commit with project files" is just a note to remember what the save is about
+    b. Type in the terminal, 'git pull origin main --allow-unrelated-histories'
+        i. This is done as we already have a README.md file in GitHub, but not locally
+        ii. This pulls the changes into our local project
+    c. A new page will open as Git combines the 2 histories; one from the local project, and the other from GitHub
+        i. To get out of the terminal screen; press Esc key, then type 'wq!' - THIS DID NOT WORK FOR ME?????!!!!!!
+7. Push step. Not complete until the push step is completed
+    a. Type in the terminal, 'git push -u origin main'
+    b. Shows that the project is merged and the branch 'main' set up to track 'origin/main', which means the local branch
+    and GitHub branch are fully connected.
+    c. the README.md file is now a part of our local project as well, which will push to GitHub keeping both sides in sync
+
+
+
 
 
 
