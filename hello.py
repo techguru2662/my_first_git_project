@@ -47,7 +47,7 @@ In the terminal:
 
 
 print("Hello from Developer Anders!")
-
+print("Hello from Jon!")
 
 
 
