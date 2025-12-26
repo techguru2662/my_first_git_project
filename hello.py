@@ -30,6 +30,13 @@ In the terminal:
     b. Shows that the project is merged and the branch 'main' set up to track 'origin/main', which means the local branch
     and GitHub branch are fully connected.
     c. the README.md file is now a part of our local project as well, which will push to GitHub keeping both sides in sync
+8. Updating versions in Git
+    a. Changed the message below:
+        i. was: 'print("Hello GitHub from PyCharm!")'
+        ii. now: 'print("Hello GitHub, this is an updated message!")
+    b. Type in the terminal, 'git status' to see if Git noticed any changes in our project after we updated the print function
+        i. The terminal shows that one file has been modified and the file is the hello.py file
+    c. Type in the terminal, 'git add hello.py' so Git knows we want to save the change
 
 
 
@@ -39,7 +46,7 @@ In the terminal:
 '''
 
 
-print("Hello GitHub from PyCharm!")
+print("Hello GitHub, this is an updated message!")
 
 
 
