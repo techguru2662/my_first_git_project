@@ -46,7 +46,7 @@ In the terminal:
 '''
 
 
-print("Hello GitHub, this is an updated message!")
+print("Hello from Jon!")
 
 
 
